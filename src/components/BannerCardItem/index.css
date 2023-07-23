@@ -1,0 +1,71 @@
+.card-1 {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-1-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 80%;
+  padding-right: 20px;
+}
+
+.card-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 20px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-2-bg.png');
+  background-size: cover;
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+.card-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-3-bg.png');
+  background-size: cover;
+  margin-bottom: 20px;
+  width: 80%;
+}
+
+/* Write your code here. */
+.card {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  color: #326a9d;
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: 900;
+}
+.para {
+  color: #64748b;
+  font-size: 13px;
+  font-family: 'Roboto';
+}
+.button {
+  color: #326a9d;
+  border: 1px solid #326a9d;
+  font-size: 13px;
+  padding: 5px;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  background-color: transparent;
+  width: 80px;
+}
+
+@media screen and (max-width: 576px) {
+  .card-1 {
+    padding: 10px;
+  }
+  .card-2 {
+    padding: 10px;
+  }
+  .card-3 {
+    padding: 10px;
+  }
+}
