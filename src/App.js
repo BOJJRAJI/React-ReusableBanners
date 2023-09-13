@@ -25,9 +25,9 @@ const bannerCardsList = [
 
 const App = () => (
   <div className="bg-container">
-    <ul className="unorder-list">
-      {bannerCardsList.map(card => (
-        <BannerCardItem cardDetails={card} key={card.id} />
+    <ul className="banner-cards">
+      {bannerCardsList.map(listItem => (
+        <BannerCardItem key={listItem.is} details={listItem} />
       ))}
     </ul>
   </div>
