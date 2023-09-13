@@ -13,11 +13,13 @@ body {
 
 /* Write your code here. */
 .bg-container {
+  height: 100vh;
   display: flex;
+  flex-direction: row;
   justify-content: center;
-  width: 100vw;
+  align-items: center;
 }
-.unorder-list {
+.banner-cards {
   padding-left: 0px;
   list-style-type: none;
   width: 80%;
